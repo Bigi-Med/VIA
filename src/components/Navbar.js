@@ -14,7 +14,7 @@ function Navbar (){
                 <h1 className='companyName'>VentureInAi</h1>
             </div>
 
-            <div className='NavigationButtons'>
+            <div className={`NavigationButtons ${menuOpen ? 'open' : ''}`}>
                 <div className='button'>ABOUT</div>
                 <div className='button'>Services</div>
                 <div className='button'>Blog</div>
