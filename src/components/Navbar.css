@@ -38,3 +38,30 @@
   /* font-weight: bold;
   font-size: larger; */
 }
+.hamburger {
+  display: none;
+}
+@media (max-width: 880px){
+  .NavigationButtons{
+    display: none;
+  }
+  .logoImg{
+    display: none;
+  }
+  .hamburger span {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom:20%;
+  }
+  
+  .hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:5%;
+    height:100%;
+    float: right;
+  }
+}
