@@ -1,6 +1,6 @@
 .NavBar {
   width: 100%;
-  height: 50%; /* or use 'vh' unit for relative to viewport height */
+  height: 60%; /* or use 'vh' unit for relative to viewport height */
   background-color:#3674e8; /* Replace with your desired color */
   position: fixed; 
   top: 0;
@@ -38,6 +38,7 @@
 }
 .companyName{
   color:#ffffff;
+  font-family: cursive;
   /* font-weight: bold;
   font-size: larger; */
 }
