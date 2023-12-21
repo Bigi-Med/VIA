@@ -1,15 +1,12 @@
 import { useState } from 'react'
 import './Navbar.css'
 function Navbar (){
-    
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
         setMenuOpen(!menuOpen)
     }
-
     return (
         <div className="NavBar">
-        
             <div className="bar">
             <div className='logo'>
                 <img  className = 'logoImg' src ='via-background.png'></img>
@@ -31,7 +28,9 @@ function Navbar (){
             <div className="slogan" >
                  <span>Enhance your business with <br></br>the power of AI</span>
             </div>
-        
+            <div className='consultation'>
+                <span className='consultationButton'>Book a free call</span>
+            </div>
         </div>
     )
 }

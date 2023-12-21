@@ -1,8 +1,8 @@
 .NavBar {
   width: 100%;
-  height: 60%; /* or use 'vh' unit for relative to viewport height */
+  height: 60vh; /* or use 'vh' unit for relative to viewport height */
   background-color:#3674e8; /* Replace with your desired color */
-  position: fixed; 
+  /* position: fixed;  */
   top: 0;
   left: 0;
   display: flex;
@@ -31,6 +31,7 @@
 }
 .button{
   color: #dfe8f9;
+  cursor: pointer;
 }
 .logoImg{
   width:250px;
@@ -54,11 +55,37 @@
   line-height: 54px;
   font-weight: 600;
 }
+.consultation{
+  margin-left: 43%;
+  margin-top:5%;
+}
+.consultationButton{
+  border-style: solid;
+  border-color: #ffffff;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left: 7%;
+  padding-right: 7%;  
+  border-radius: 10px;
+  font-family: "Source Sans Pro";
+  color: #dfe8f9;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
 @media (max-width: 880px){
   .NavigationButtons{
     display: none;
     transform: translateY(-100%);
     transition: transform 5s ease-in-out;
+  }
+  .NavBar{
+    height: 40vh;
+  }
+  .slogan{
+    font-size:50px;
+    line-height: 54px;
+    font-weight: 300px;
   }
   .logoImg{
     display: none ;
