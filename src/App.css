@@ -5,3 +5,8 @@
     background-color: #3674e8;
     width: 100%;
 }
+.serviceHeaders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

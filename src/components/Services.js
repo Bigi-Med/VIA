@@ -3,7 +3,7 @@ import './Services.css'
 function Services(){
     return (
         <div className='Services'>
-            Our services
+            <h2 className='servicesTitle'>A single Comprehensive tool to Manage your entire Business </h2>    
         </div>
     )
 }
