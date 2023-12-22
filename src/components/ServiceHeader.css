@@ -1,4 +1,21 @@
 .service-header-container{
     margin-left:7%;
-    margin-right:7%
+    margin-right:7%;
+    border-style: solid;
+    border-color: #3674e8;
+    border-radius:10px;
+    padding-top:1%;
+    padding-right:1%;
+    padding-left:1%;
+    padding-bottom:0.5%;
+}
+.service-header-title{
+    color:#3674e8;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Source Sans Pro";
+}
+.service-header-body{
+    font-family: "Source Sans Pro";
+    font-size:medium;
 }

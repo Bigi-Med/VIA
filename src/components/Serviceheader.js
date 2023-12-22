@@ -5,10 +5,10 @@ function ServiceHeader({icon,title,body}){
         <div className='service-header-container'>
             <div className='service-header-text-container'>
                 <div className='service-header-title-container'>
-                    <span>{title}</span>
+                    <span className='service-header-title'>{title}: </span>
                 </div>
                 <div className='service-header-body-container'>
-                    <span>{body}</span>
+                    <span className='service-header-body'>{body}.</span>
                 </div>
             </div>
         </div>
