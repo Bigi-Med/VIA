@@ -12,7 +12,7 @@
   flex-direction: row;
   display: flex;
   justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  align-items: center; 
 }
 .NavigationButtons{
   display: flex;
@@ -56,16 +56,14 @@
   font-weight: 600;
 }
 .consultation{
-  margin-left: 43%;
-  margin-top:5%;
-}
-.consultationButton{
+  align-self: center; 
+  margin-top:3%;
   border-style: solid;
   border-color: #ffffff;
-  padding-top:2%;
-  padding-bottom:2%;
-  padding-left: 7%;
-  padding-right: 7%;  
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left: 1%;
+  padding-right: 1%;  
   border-radius: 10px;
   font-family: "Source Sans Pro";
   color: #dfe8f9;
