@@ -1,0 +1,11 @@
+.service-list-container{
+    background-color: white;
+}
+.service-list-header{
+    text-align: center;
+}
+.service-list-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
