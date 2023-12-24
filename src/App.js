@@ -9,11 +9,8 @@ function App() {
       <Navbar/>
       <Services/>
       <div className='serviceHeaders'>
-          <Servicesheader title='Book showings with little effort' body='Lay back and let our AI assitant interact with potential clients, learn their likes and dislikes, and eventually book showings for you'/>
-          <Servicesheader title='Always implement the tactics you want' body='With the immense time and efficiency gained using AI, see all your ambitious plans come to fruition'/>
-          <Servicesheader title='Stay on top of real estate technology' body='With us behind your back, you will be at the forefront of technology when it comes to real estate'/>
+          <Servicesheader body='AI assitant available 24/7 // Impress your leads with immediate responses // Match your clients preferences with available properties // Send personnalized follow up emails and SMS // Book showings for you based on available properties // Keep in touch with already acquired clients to expand your network'/>
       </div>
-      <ServiceList></ServiceList>
     </div>
   );
 }

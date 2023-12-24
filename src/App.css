@@ -1,9 +1,9 @@
 .container{
     min-height: 200vh;
-    background-color: rgba(202, 195, 194, 0.534);
+    background-color: #B0B0B0 ;
 }
 .slogan{
-    background-color: #3674e8;
+    background-color: #000080;
     width: 100%;
 }
 .serviceHeaders{
