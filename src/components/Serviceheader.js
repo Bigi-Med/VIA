@@ -15,6 +15,11 @@ function ServiceHeader({icon,title,body}){
                         ))}
                     </ul>
                 </div>
+                <div className='service-header-button-container'>
+                    <div className='service-header-button'>
+                        <span className='service-header-learnMore'> Learn more</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 .NavBar {
   width: 100%;
   height: 60vh; /* or use 'vh' unit for relative to viewport height */
-  background-color:#000080; /* Replace with your desired color */
+  background-color:#3030df; /* Replace with your desired color */
   /* position: fixed;  */
   top: 0;
   left: 0;
