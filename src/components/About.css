@@ -9,11 +9,26 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.about-logoImg{
-}
 .about-text{
     font-family: Montserrat, sans-serif;
     margin-top:2%;
     line-height: 35px;
     font-size: larger;
+}
+@media (max-width: 950px) {
+    .about-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .about-text{
+        font-size: medium;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about-logoImg{
+        height:400px;
+        width:400px;
+    }
 }

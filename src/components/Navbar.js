@@ -26,7 +26,7 @@ function Navbar (){
             </div>
             </div>
             <div className="slogan" >
-                 <span>Enhance your business with <br></br>the power of AI</span>
+                 <span>Future-proof your business with <br></br>the power of AI</span>
             </div>
             <div className='consultation'>
                 <span className='consultationButton'>Book a free call</span>
