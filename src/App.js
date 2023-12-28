@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Servicesheader from './components/Serviceheader'
 import About from './components/About';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className='container'>
@@ -13,6 +14,7 @@ function App() {
       </div>
       <div className='divider'></div>
       <About></About>
+      <Contact></Contact>
     </div>
     
   );
