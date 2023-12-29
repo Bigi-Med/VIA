@@ -25,7 +25,9 @@ function Contact() {
                         <label htmlFor='message'>Message</label>
                         <textarea id='message' name='message' rows='4' required></textarea>
                     </div>
-                    <button type='submit'>Send Message</button>
+                    <div className='contact-button-submit-container'>
+                        <span className='contact-button-submit'>SUBMIT</span>
+                    </div>
                 </form>
             </div>
         </div>
